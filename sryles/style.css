@@ -1,0 +1,15 @@
+/* work sans font links  */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Work Sans", sans-serif;
+    background-color: rgba(0, 0, 0, 0.673);
+    color: white;
+}
+
