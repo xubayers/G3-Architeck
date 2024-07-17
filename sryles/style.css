@@ -12,6 +12,8 @@ body {
 }
 :root {
     --para-font: 12px;
+    --big-font: 30px;
+    --md-font: 14px;
 }
 /* global styls */
 .para {
@@ -19,6 +21,15 @@ body {
     letter-spacing: .1px;
     font-size: var(--para-font);
     color: #727272;
+}
+.font-lz {
+    font-size: var(--big-font);
+}
+.font-md {
+    font-size: var(--md-font);
+}
+img { 
+    width: 100%;
 }
 .btn {
     padding: 14px 18px;
@@ -38,6 +49,7 @@ li {
 /* header style start  */
 header {
     background-color: rgba(255, 144, 14, 0.1);
+    margin-bottom: 57px;
 }
 
 /* nav bar style here  */
@@ -91,4 +103,34 @@ header .content p {
     width: 100%;
     margin-top: 20px;
     margin-bottom: 30px;
+}
+/* quick list  */
+.quick-fix {
+    max-width: 1060px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.quick-fix .teams {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    width: 55%;
+}
+.quick-fix .content {
+    width: 35%;
+}
+.quick-fix .content h2 {
+    color: #727272;
+
+}
+.quick-fix .content h2 .black {
+    color: black;
+}
+.quick-fix .content h2 .orenge {
+    color: rgba(255, 144, 14, 1);
+}
+.quick-fix .content p {
+    margin: 15px 0;
 }

@@ -6,8 +6,14 @@
     .banner {
         margin: 0 10px ;
     }
+    .quick-fix {
+        margin: auto 10px;
+    }
 }
 @media screen and (max-width: 768px) {
+    :root {
+        --big-font: 25px;
+    }
     nav ul {
         display: none;
     }
@@ -17,9 +23,20 @@
     nav .menu {
         display: block;
     }
-   
     header .content h1 {
         font-size: 35px;
+    }
+    .btn {
+        padding: 10px 15px;
+    }
+    .quick-fix {
+        flex-direction: column;
+    }
+    .quick-fix .teams {
+        width: 100%;
+    }
+    .quick-fix .content {
+        width: 100%;
     }
 }
 @media screen and (max-width: 576px) {
@@ -28,5 +45,8 @@
     }
     nav .brand {
         font-size: 20px;
+    }
+    .quick-fix .teams {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
