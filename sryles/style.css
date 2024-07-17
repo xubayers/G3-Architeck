@@ -9,7 +9,85 @@
 
 body {
     font-family: "Work Sans", sans-serif;
-    background-color: rgba(0, 0, 0, 0.673);
+}
+:root {
+    --para-font: 12px;
+}
+/* global styls */
+.para {
+    line-height: 1.4;
+    letter-spacing: .1px;
+    font-size: var(--para-font);
+    color: #727272;
+}
+.btn {
+    padding: 14px 18px;
+    font-size: 14px;
+    background-color: #FF900E;
     color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 13px;
+    letter-spacing: 1.2px;
+    font-weight: bold;
+    cursor: pointer;
+}
+li {
+    list-style: none;
+}
+/* header style start  */
+header {
+    background-color: rgba(255, 144, 14, 0.1);
 }
 
+/* nav bar style here  */
+nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1160px;
+    margin: 0 auto;
+    padding-top: 20px;
+    align-items: center;
+}
+nav ul {
+    display: flex;
+    text-transform: capitalize;
+    gap: 50px;
+    align-items: center;
+}
+nav ul li , nav h1{
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 500;
+}
+nav h1 {
+    font-size: 30px;
+    font-weight: bolder;
+    text-shadow: 0 2px 2px #000000c9;
+}
+nav .menu {
+    font-size: 30px;
+    display: none;
+}
+/* header content  */
+header .content {
+    max-width: 590px;
+    margin: 0 auto;
+    margin-top: 40px;
+    text-align: center;
+}
+header .content h1 {
+    font-size: 43px;
+}
+header .content p {
+    margin: 10px 0 15px 0;
+}
+.banner {
+    margin: 0 auto;
+    max-width: 1160px;
+}
+.banner img {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
