@@ -21,6 +21,7 @@ body {
     letter-spacing: .1px;
     font-size: var(--para-font);
     color: #727272;
+    line-height: 1.6;
 }
 .font-lz {
     font-size: var(--big-font);
@@ -75,7 +76,7 @@ nav ul li , nav h1{
 nav h1 {
     font-size: 30px;
     font-weight: bolder;
-    text-shadow: 0 2px 2px #000000c9;
+    text-shadow: 0 2px 1px #000000c9;
 }
 nav .menu {
     font-size: 20px;
@@ -133,4 +134,59 @@ header .content p {
 }
 .quick-fix .content p {
     margin: 15px 0;
+}
+/* architeck section style */
+.features {
+    margin: 80px auto;
+    max-width: 1160px;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+.features .content {
+    max-width: 430px;
+}
+.features .features-title {
+    margin-bottom: 30px;
+    & h2{
+        padding-left: 15px;
+        border-left: 5px solid #FF900E;
+        margin-bottom: 15px;
+    }
+}
+.features .content .ftrs {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px #0000001d;
+}
+.features .content .ftrs h3 {
+    margin-bottom: 8px;
+}
+.features .arch {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: 100%;
+    position: relative
+}
+.features .arch img{
+    max-width: 90%; 
+    margin-right: 10px;
+    
+}
+.features .arch button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom: -39px;
+    left: 10px;
+    padding: 25px 35px;
+}
+.features .arch button .big {
+    font-size: 43px;
+    
 }
