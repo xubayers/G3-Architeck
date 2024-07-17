@@ -251,3 +251,14 @@ header .content p {
 .sponsors .brands img {
     filter: saturate(.1);
 }
+/* footer style */
+footer div {
+    max-width: 1160px;
+    padding: 20px 0;
+    text-align: center;
+    background-color: rgba(255, 244, 231, 1);
+    margin: 0 auto;
+}
+footer p {
+    font-size: 14px;
+}
