@@ -1,4 +1,24 @@
 @media screen and (max-width: 576px) {
-    
+    nav ul {
+        display: none;
+    }
+    nav {
+        margin: 0 10px;
+    }
+    nav .menu {
+        display: block;
+    }
+    header .content {
+        margin: 15px 10px;
+    }
+    header .content h1 {
+        font-size: 25px;
+    }
+    .banner {
+        margin: 0 10px ;
+    }
+    nav .brand {
+        font-size: 20px;
+    }
 }
 @media screen and (max-width: 500px) {}
