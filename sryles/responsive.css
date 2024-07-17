@@ -13,6 +13,15 @@
         max-width: 380px;
         margin: 0 10px;
     }
+    .some-fact {
+        margin: auto 10px;
+    }
+    .some-fact .facts {
+        gap: 50px;
+    }
+    .sponsors .brands {
+        gap: 120px;
+    }
 }
 @media screen and (max-width: 960px) {
     .features {
@@ -21,6 +30,9 @@
     .features .content {
         max-width: 100%;
         margin: 0 10px;
+    }
+    .sponsors .brands {
+        gap: 100px;
     }
 }
 @media screen and (max-width: 768px) {
@@ -51,6 +63,14 @@
     .quick-fix .content {
         width: 100%;
     }
+    .some-fact .facts {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .sponsors .brands {
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 30px;
+        gap: 90px;
+    }
 }
 @media screen and (max-width: 576px) {
     header .content h1 {
@@ -61,5 +81,12 @@
     }
     .quick-fix .teams {
         grid-template-columns: repeat(1, 1fr);
+    }
+    .some-fact .facts {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .sponsors .brands {
+        gap: 50px;
+        row-gap: 20px;
     }
 }
